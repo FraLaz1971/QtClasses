@@ -17,9 +17,11 @@ make -f Makefile clean
 ## how to remove all generated files on GNU/Linux
 make -f Makefile distclean
 #
-## how to build on MS win from terminal
+## how to build on MS win 32 bit from terminal
 ### without using qmake and qt libraries
 mingw32-make -f Makefile.win
+# or for 64 bit install
+mingw32-make -f Makefile.win64
 ### ho to build on MS win (msys/cygwin)  using mingw 
 ### using qmake and qt libraries
 ### (optional) generate the Makefile for MS win
