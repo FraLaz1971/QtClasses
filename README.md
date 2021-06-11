@@ -33,6 +33,7 @@ debug/QtClasses-win "example text string" 10
 mingw32-make -f Makefile-win.Debug clean
 ## how to remove all generated files
 mingw32-make -f Makefile-win.Debug distclean
+#
 ###to compile on MS win using MSVC 2008 compiler
 ###Visual Studio 9.0
 qmake -spec win32-msvc2008 qtc-msvc2008.pro -o Makefile
